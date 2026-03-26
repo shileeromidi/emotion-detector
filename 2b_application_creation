@@ -1,0 +1,6 @@
+$ python3
+Python 3.x.x (default, ...)
+>>> from emotion_detection import emotion_detector
+>>> emotion_detector("I am very happy today")
+{'anger': 0.01, 'disgust': 0.0, 'fear': 0.02, 'joy': 0.95, 'sadness': 0.02}
+>>>
